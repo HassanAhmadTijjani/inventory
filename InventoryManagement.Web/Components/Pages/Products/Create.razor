@@ -1,0 +1,89 @@
+@page "/products/create"
+@rendermode InteractiveServer
+@using MediatR
+@using InventoryManagement.Application.Products.Commands
+
+@inject IMediator Mediator
+<PageTitle>Create Product</PageTitle>
+<h3>Create Product</h3>
+
+<EditForm Model="productModel" OnValidSubmit="CreateProduct" FormName="CreateProductForm">
+    <DataAnnotationsValidator />
+
+    <div>
+        <label>Name</label>
+        <InputText @bind-Value="productModel.Name" />
+    </div>
+
+    <div>
+        <label>Description</label>
+        <InputTextArea @bind-Value="productModel.Description" />
+    </div>
+
+    <div>
+        <label>Price</label>
+        <InputNumber @bind-Value="productModel.Price" />
+    </div>
+
+    <div>
+        <label>Quantity</label>
+        <InputNumber @bind-Value="productModel.Quantity" />
+    </div>
+
+    <div>
+        <label>Low Stock Threshold</label>
+        <InputNumber @bind-Value="productModel.LowStockThreshold" />
+    </div>
+
+    <button type="submit">
+        Create Product
+    </button>
+
+</EditForm>
+
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p>@message, @productModel.Name</p>
+}
+
+
+@code {
+
+    private ProductModel productModel = new();
+
+    private string? message;
+
+
+    private async Task CreateProduct()
+    {
+        
+        var command = new CreateProductCommand(
+            productModel.Name,
+            productModel.Description,
+            productModel.Price,
+            productModel.Quantity,
+            productModel.LowStockThreshold
+        );
+
+
+        var productId = await Mediator.Send(command);
+
+
+        message = $"Product created successfully: {productId}";
+    }
+
+
+    private class ProductModel
+    {
+        public string Name { get; set; } = "";
+
+        public string Description { get; set; } = "";
+
+        public decimal Price { get; set; }
+
+        public int Quantity { get; set; }
+
+        public int LowStockThreshold { get; set; }
+    }
+}

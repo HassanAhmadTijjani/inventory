@@ -1,0 +1,15 @@
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/bin/Debug/net10.0/InventoryManagement.Application.deps.json
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/bin/Debug/net10.0/InventoryManagement.Application.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/bin/Debug/net10.0/InventoryManagement.Application.pdb
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/bin/Debug/net10.0/InventoryManagement.Domain.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/bin/Debug/net10.0/InventoryManagement.Domain.pdb
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.csproj.AssemblyReference.cache
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.AssemblyInfoInputs.cache
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.AssemblyInfo.cs
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.csproj.CoreCompileInputs.cache
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/Inventor.0D5EB3FB.Up2Date
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/refint/InventoryManagement.Application.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.pdb
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/ref/InventoryManagement.Application.dll

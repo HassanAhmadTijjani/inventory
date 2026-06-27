@@ -1,0 +1,11 @@
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/bin/Debug/net10.0/InventoryManagement.Domain.deps.json
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/bin/Debug/net10.0/InventoryManagement.Domain.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/bin/Debug/net10.0/InventoryManagement.Domain.pdb
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.AssemblyInfoInputs.cache
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.AssemblyInfo.cs
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/refint/InventoryManagement.Domain.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.pdb
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/ref/InventoryManagement.Domain.dll

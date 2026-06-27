@@ -1,0 +1,118 @@
+@page "/products/edit/{Id:guid}"
+
+@rendermode InteractiveServer
+
+@using MediatR
+@using InventoryManagement.Application.Products.Commands
+@using InventoryManagement.Application.Products.Queries
+
+@inject IMediator Mediator
+@inject NavigationManager NavigationManager
+
+<h3>Edit Product</h3>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="productModel" OnValidSubmit="UpdateProduct" FormName="EditProductForm">
+        @* <DataAnnotationsValidator /> *@
+
+        <div>
+            <label>Name</label>
+            <InputText @bind-Value="productModel.Name" />
+        </div>
+
+        <div>
+            <label>Description</label>
+            <InputTextArea @bind-Value="productModel.Description" />
+        </div>
+
+        <div>
+            <label>Price</label>
+            <InputNumber @bind-Value="productModel.Price" />
+        </div>
+
+        <div>
+            <label>Quantity</label>
+            <InputNumber @bind-Value="productModel.Quantity" />
+        </div>
+
+        <div>
+            <label>Low Stock Threshold</label>
+            <InputNumber @bind-Value="productModel.LowStockThreshold" />
+        </div>
+
+        <button type="submit">
+            Save Changes
+        </button>
+@* <h3>@productModel.</h3> *@
+    </EditForm>
+}
+
+@code {
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private bool isLoading = true;
+
+    private ProductModel productModel = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var product = await Mediator.Send(
+            new GetProductByIdQuery(Id));
+
+        if (product is null)
+        {
+            NavigationManager.NavigateTo("/products");
+            return;
+        }
+
+@* Form to be populated *@
+        productModel = new ProductModel
+        {
+            Name = product.Name,
+            Description = product.Description,
+            Price = product.Price,
+            Quantity = product.Quantity,
+            LowStockThreshold = product.LowStockThreshold
+        };
+
+        isLoading = false;
+    }
+
+    private async Task UpdateProduct()
+    {
+        Console.WriteLine($"Edit Page Id = {Id}");
+
+        var command = new UpdateProductCommand(
+            Id,
+            productModel.Name,
+            productModel.Description,
+            productModel.Price,
+            productModel.Quantity,
+            productModel.LowStockThreshold
+        );
+
+        await Mediator.Send(command);
+
+        NavigationManager.NavigateTo("/products");
+    }
+
+    private class ProductModel
+    {
+        public string Name { get; set; } = "";
+
+        public string Description { get; set; } = "";
+
+        public decimal Price { get; set; }
+
+        public int Quantity { get; set; }
+
+        public int LowStockThreshold { get; set; }
+    }
+}
