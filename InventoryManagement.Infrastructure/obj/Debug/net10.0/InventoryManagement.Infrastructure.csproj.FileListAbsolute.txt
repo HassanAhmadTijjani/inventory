@@ -17,3 +17,4 @@
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Infrastructure/obj/Debug/net10.0/InventoryManagement.Infrastructure.pdb
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Infrastructure/obj/Debug/net10.0/InventoryManagement.Infrastructure.genruntimeconfig.cache
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Infrastructure/obj/Debug/net10.0/ref/InventoryManagement.Infrastructure.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Infrastructure/obj/Debug/net10.0/InventoryManagement.Infrastructure.sourcelink.json

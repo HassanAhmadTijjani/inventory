@@ -9,3 +9,4 @@
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/refint/InventoryManagement.Domain.dll
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.pdb
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/ref/InventoryManagement.Domain.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Domain/obj/Debug/net10.0/InventoryManagement.Domain.sourcelink.json

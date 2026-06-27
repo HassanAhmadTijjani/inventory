@@ -13,3 +13,4 @@
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/refint/InventoryManagement.Application.dll
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.pdb
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/ref/InventoryManagement.Application.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/obj/Debug/net10.0/InventoryManagement.Application.sourcelink.json

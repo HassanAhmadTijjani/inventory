@@ -6,42 +6,51 @@
 @using InventoryManagement.Domain.Entities
 @inject IMediator Mediator
 <PageTitle>Products</PageTitle>
-<h3>Products</h3>
-<a href="/products/create">Add Product</a>
-@if(products is null ){
-    <p>Loading...</p>
-} else if(!products.Any()){
-    <p>No Products found</p>
-} else{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Low Stock</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var product in products){
+<div class="p-6 flex justify-center">
+    <h3 class="!text-2xl !font-semibold !text-slate-800">Products</h3>
+    <a class="mt-3 inline-flex !text-blue-600 hover:!text-blue-800" href="/products/create">Add Product</a>
+</div>
+    @if (products is null)
+    {
+        <p>Loading...</p>
+    }
+    else if (!products.Any())
+    {
+        <p>No Products found</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@product.Name</td>
-                    <td>@product.Price</td>
-                    <td>@product.Quantity</td>
-                    <td>@product.LowStockThreshold</td>
-                    <td>
-                        <a href="/products/edit/@product.Id">Edit</a>
-                        <button @onclick="() => DeleteProduct(product.Id)">
-                            Delete
-                        </button>
-                    </td>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Low Stock</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
+            </thead>
+            <tbody>
+                @foreach (var product in products)
+                {
+                    <tr>
+                        <td>@product.Name</td>
+                        <td>@product.Price</td>
+                        <td>@product.Quantity</td>
+                        <td>@product.LowStockThreshold</td>
+                        <td>
+                            <a href="/products/edit/@product.Id">Edit</a>
+                            <button @onclick="() => DeleteProduct(product.Id)">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 
-@code{
+
+@code {
     private IEnumerable<Product>? products;
 
     protected override async Task OnInitializedAsync()
@@ -50,7 +59,8 @@
     }
 
     @* Delete Method *@
-    private async Task DeleteProduct(Guid id) {
+    private async Task DeleteProduct(Guid id)
+    {
         await Mediator.Send(new DeleteProductCommand(id));
         products = await Mediator.Send(new GetProductsQuery());
     }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/inventorymanagement.web/InventoryManagement.Web.csproj": {}
+    "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/InventoryManagement.Web.csproj": {}
   },
   "projects": {
     "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj": {
@@ -1039,14 +1039,14 @@
         }
       }
     },
-    "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/inventorymanagement.web/InventoryManagement.Web.csproj": {
+    "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/InventoryManagement.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/inventorymanagement.web/InventoryManagement.Web.csproj",
+        "projectUniqueName": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/InventoryManagement.Web.csproj",
         "projectName": "InventoryManagement.Web",
-        "projectPath": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/inventorymanagement.web/InventoryManagement.Web.csproj",
+        "projectPath": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/InventoryManagement.Web.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/inventorymanagement.web/obj/",
+        "outputPath": "/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/apple/.nuget/NuGet/NuGet.Config"

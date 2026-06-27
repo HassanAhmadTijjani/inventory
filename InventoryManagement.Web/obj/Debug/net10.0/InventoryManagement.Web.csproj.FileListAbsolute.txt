@@ -212,3 +212,7 @@
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/bin/Debug/net10.0/package-lock.json
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/bin/Debug/net10.0/package.json
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/obj/Debug/net10.0/InventoryManagement.Web.sourcelink.json
+/Users/apple/Desktop/Learning-Path/CSHARP/InventoryManagement/InventoryManagement.Web/obj/Debug/net10.0/compressed/m3726zch3r-{0}-14gan86y7t-14gan86y7t.gz
